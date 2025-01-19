@@ -23,7 +23,7 @@ class Recipe(BaseModel):
 
 session = boto3.Session(
 
-       region_name='SELECTED_REGION'
+       region_name='ap-southeast-2'
    )
 
 dynamodb = session.resource('dynamodb')
